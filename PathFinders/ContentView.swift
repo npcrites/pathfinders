@@ -125,7 +125,7 @@ struct ContentView: View {
             SavedIdeasView()
         }
         else if page == .preferences {
-            PreferencesView()
+            PreferencesView(cityPreferences: [])
         }
         else {
             PathFindersTripView()

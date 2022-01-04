@@ -227,10 +227,11 @@ struct PreferencesView: View {
                     .padding(.bottom)
                     .frame(height: geometry.size.height * 0.35, alignment: .topLeading)
                     
-                    Spacer()
                         
                     VStack (alignment: .leading){
                         Text("Activities").padding(.leading)
+                        
+                        ActivityPreference()
                     } //end of activities external vstack
                     .padding(.top)
                     .padding(.bottom)
@@ -238,8 +239,6 @@ struct PreferencesView: View {
                 } //close of geometry readers VStack
             
             } //close of geometry reader
-            
-            Spacer()
             
         } //end of else statement
     }

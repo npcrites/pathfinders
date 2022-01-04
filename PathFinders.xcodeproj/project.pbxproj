@@ -11,6 +11,7 @@
 		BF4824D027791A41002776BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4824CF27791A41002776BE /* ContentView.swift */; };
 		BF4824D227791A46002776BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4824D127791A46002776BE /* Assets.xcassets */; };
 		BF4824D527791A46002776BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4824D427791A46002776BE /* Preview Assets.xcassets */; };
+		BF50B4D02784C23500D07126 /* ActivityPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50B4CF2784C23500D07126 /* ActivityPreference.swift */; };
 		BF8216D2277B5F69001AA5BA /* SavedIdeasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8216D1277B5F69001AA5BA /* SavedIdeasView.swift */; };
 		BF8216D4277B5F83001AA5BA /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8216D3277B5F83001AA5BA /* PreferencesView.swift */; };
 		BF8216D6277B5FB1001AA5BA /* PathFindersTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8216D5277B5FB1001AA5BA /* PathFindersTripView.swift */; };
@@ -22,6 +23,7 @@
 		BF4824CF27791A41002776BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF4824D127791A46002776BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4824D427791A46002776BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF50B4CF2784C23500D07126 /* ActivityPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPreference.swift; sourceTree = "<group>"; };
 		BF8216D1277B5F69001AA5BA /* SavedIdeasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedIdeasView.swift; sourceTree = "<group>"; };
 		BF8216D3277B5F83001AA5BA /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		BF8216D5277B5FB1001AA5BA /* PathFindersTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFindersTripView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				BF4824CD27791A41002776BE /* PathFindersApp.swift */,
 				BF4824CF27791A41002776BE /* ContentView.swift */,
+				BF50B4CF2784C23500D07126 /* ActivityPreference.swift */,
 				BF8216D5277B5FB1001AA5BA /* PathFindersTripView.swift */,
 				BF8216D1277B5F69001AA5BA /* SavedIdeasView.swift */,
 				BF8216D3277B5F83001AA5BA /* PreferencesView.swift */,
@@ -151,6 +154,7 @@
 				BF4824CE27791A41002776BE /* PathFindersApp.swift in Sources */,
 				BF8216D6277B5FB1001AA5BA /* PathFindersTripView.swift in Sources */,
 				BF8216D2277B5F69001AA5BA /* SavedIdeasView.swift in Sources */,
+				BF50B4D02784C23500D07126 /* ActivityPreference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
